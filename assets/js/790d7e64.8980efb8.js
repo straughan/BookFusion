@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbook_fusion=self.webpackChunkbook_fusion||[]).push([[2909],{5967:o=>{o.exports=JSON.parse('{"metadata":{"permalink":"/BookFusion/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

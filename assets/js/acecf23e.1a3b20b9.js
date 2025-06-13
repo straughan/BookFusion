@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbook_fusion=self.webpackChunkbook_fusion||[]).push([[1903],{1912:o=>{o.exports=JSON.parse('{"blogBasePath":"/BookFusion/blog","blogTitle":"Blog","authorsListPath":"/BookFusion/blog/authors"}')}}]);
