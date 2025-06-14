@@ -10,9 +10,9 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "My Site",
+  title: "BookFusion",
   tagline: "Dinosaurs are cool",
-  favicon: "img/favicon.ico",
+  favicon: "img/favicon.png",
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -85,7 +85,8 @@ const config = {
         title: "My Site",
         logo: {
           alt: "My Site Logo",
-          src: "img/logo.svg",
+          src: "img/LogoLight.png",
+          srcDark: "img/LogoDark.png",
         },
         items: [
           {

@@ -18,7 +18,7 @@
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
+[data-theme="dark"] {
   --ifm-color-primary: #25c2a0;
   --ifm-color-primary-dark: #21af90;
   --ifm-color-primary-darker: #1fa588;
@@ -27,4 +27,64 @@
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap");
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.6;
+}
+
+.myHeroLayout {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 2rem;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.mainText,
+.playerWrapper {
+  flex: 1 1 45%;
+  min-width: 280px;
+  max-width: 600px;
+  text-align: left;
+}
+
+.reactPlayer {
+  width: 100% !important;
+  height: auto !important;
+  aspect-ratio: 16 / 9;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .myHeroLayout {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .mainText,
+  .playerWrapper {
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+  }
 }
